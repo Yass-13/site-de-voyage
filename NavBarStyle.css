@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* GENERAL */
+.DflexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* NavBar style */
+.containerNavBar{
+    position: relative;
+    justify-content: space-around;
+    /* background-color: rgba(88, 188, 227, 0.733); */
+}
+/* NavBar Background */
+.containerNavBar::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('/img/BGNavBar.jpg');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: auto;
+}
+/* logo and navigation link */
+.logo, .ButtonsNav{
+    width: 50%;
+    z-index: 2;
+}
+.logo{
+    gap: 1.5em;
+}
+.logo img{
+    max-width: 7em;
+}
+.logoTitle{
+    font-size: 3em;
+}
+.ButtonsNav{
+    gap: 1.5em;
+}
+.linkBtn{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 1.5em;
+}
+.linkBtn:hover{
+    background: linear-gradient(45deg, rgba(88,188,227,1) 0%, rgba(255,255,255,1) 100%);
+}
