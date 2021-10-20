@@ -14,6 +14,7 @@ a{
 }
 /* NavBar style */
 .containerNavBar{
+    padding: 0.5em;
     position: relative;
     justify-content: space-around;
     /* background-color: rgba(88, 188, 227, 0.733); */
@@ -32,11 +33,11 @@ a{
     background-image: url('/img/BGNavBar.jpg');
     background-repeat: no-repeat;
     background-position:bottom;
-    background-size: auto;
+    background-size: cover;
 }
 /* logo and navigation link */
 .logo, .ButtonsNav{
-    width: 50%;
+    /* width: 50%; */
     z-index: 2;
 }
 .logo{
@@ -49,13 +50,48 @@ a{
     font-size: 3em;
 }
 .ButtonsNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     gap: 1.5em;
 }
 .linkBtn{
     border: 2px solid rgba(0, 0, 0, 0.5);
     border-radius: 25px;
-    padding: 1.5em;
+    padding: 1em;
+    min-width: 3em;
 }
 .linkBtn:hover{
     background: linear-gradient(45deg, rgba(88,188,227,1) 0%, rgba(255,255,255,1) 100%);
+}
+.iconBurger{
+    display: none;
+    font-size: 2.5em;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 835px){
+    .ButtonsNav a.linkBtn{
+        display: none;
+    }
+    .iconBurger{
+        display: block;
+    }
+    .logo{
+        width: 100%;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 835px){
+    .containerNavBar{
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .ButtonsNav.responsive{
+        position: relative;
+    }
+    .ButtonsNav.responsive a.linkBtn{
+        display: block;
+    }
 }
