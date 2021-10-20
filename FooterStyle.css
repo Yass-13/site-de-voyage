@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* GLOBAL STYLES */
+.DflexC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.containerFooter{
+    flex-direction: column;
+    gap: 1.5em;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.socialFooter{
+    padding: 1em;
+    justify-content: space-around;
+    width: 35%;
+    gap: 2em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.socialFooter i{
+    font-size: 2em;
+    padding: 0.1em;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.socialFooter i:hover{
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.linkFooter{
+    justify-content: space-around;
+    gap: 1em;
+    width: 75%;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+.linkFooter a{
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.linkFooter a:hover{
+    color: rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.Copyright p{
+    color: rgba(0, 0, 0, 0.5);
+}
