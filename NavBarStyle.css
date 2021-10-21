@@ -2,22 +2,25 @@
     margin: 0;
     padding: 0;
 }
+/* COLORS VARIABLES */
+:root{
+    --main-color: #1e847f;
+    --secondary-color: #ecc19c;
+    --tertiary-color: #000000;
+}
 /* GENERAL */
 .DflexCenter{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
 /* NavBar style */
 .containerNavBar{
     padding: 0.5em;
     position: relative;
     justify-content: space-around;
-    /* background-color: rgba(88, 188, 227, 0.733); */
+    background-color: var(--secondary-color);
+    border-bottom: 2px solid var(--main-color);
 }
 /* NavBar Background */
 .containerNavBar::before{
@@ -30,25 +33,28 @@ a{
     height: 100%;
     z-index: 1;
     opacity: 0.6;
-    background-image: url('/img/BGNavBar.jpg');
+    background-image: url('/img/sky-690293_1920.jpg');
     background-repeat: no-repeat;
-    background-position:bottom;
-    background-size: cover;
+    background-position:center;
+    background-size:auto;
 }
 /* logo and navigation link */
 .logo, .ButtonsNav{
-    /* width: 50%; */
     z-index: 2;
 }
 .logo{
     gap: 1.5em;
 }
 .logo img{
-    max-width: 7em;
+    max-width: 5em;
 }
 .logoTitle{
     font-size: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: var(--main-color);
+    text-shadow: 0 0 20px var(--tertiary-color), 0 0 2px var(--tertiary-color);
 }
+/* BUTTONS CONTAINER */
 .ButtonsNav{
     display: flex;
     align-items: center;
@@ -56,20 +62,25 @@ a{
     text-align: center;
     gap: 1.5em;
 }
+/* BUTTONS */
+.ButtonsNav a{
+    text-decoration: none;
+    color: var(--main-color);
+}
 .linkBtn{
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    border: 2px solid var(--main-color);
     border-radius: 25px;
     padding: 1em;
     min-width: 3em;
 }
 .linkBtn:hover{
-    background: linear-gradient(45deg, rgba(88,188,227,1) 0%, rgba(255,255,255,1) 100%);
+    background: var(--secondary-color);
 }
+/* MENU BURGER ICON */
 .iconBurger{
     display: none;
     font-size: 2.5em;
 }
-
 /* MEDIA QUERIES */
 @media screen and (max-width: 835px){
     .ButtonsNav a.linkBtn{
