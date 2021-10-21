@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: rgb(0, 217, 255);
+    --secondary-color: rgb(168, 167, 167);
+}
+
+/*Background*/
+
+.Img_Opacity {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.Img_Opacity::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #8A8A8A;
+}
+/* Marseille*/
+
+.Marseille::after{
+    background-image: url('/img/marseille.png');
+}
+/* Paris*/
+.Paris::after{
+    background-image: url('/img/paris.png');
+}
+/* Rio */
+.Rio::after{
+    background-image: url('/img/rio.png');
+}
+/* Sao Paolo*/
+.Sao_Paolo::after{
+    background-image: url('/img/sao_paolo.png');
+}
+/* Dubai */
+.Dubai::after{
+    background-image: url('/img/Dubai.png');
+}
+/*New York*/
+.New_York::after{
+    background-image: url('/img/new_york.png');
+}
+
+/* Miami */
+.Miami::after{
+    background-image: url('/img/miami.png');
+}
+/* Ville, Image et Description*/
+
+.First_Block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 75%;
+}
+.Ville{
+    border-radius: 12%;
+    background-color: var(--primary-color);
+    padding: 3%;
+    margin: 3%;
+    z-index: 2;
+    position:relative;
+}
+/* Image détails*/
+
+.Img_Details img{
+    z-index: 2;
+    position: relative;
+    max-width: 60%;
+    max-height: auto;
+}
+.Img_Details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Description*/
+
+.Description{
+    border-radius: 5%;
+    background-color: var(--primary-color);
+    padding: 3%;
+    margin: 3%;
+    z-index: 2;
+    position: relative;
+}
+
+/*Conditions voyage et Bouton*/
+
+.Second-Block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 25%;
+}
+.Second-Block h3{
+    border-bottom: solid white 1em;
+}
+.Voyage_Conditions{
+    border-radius: 5%;
+    background-color: var(--primary-color);
+    padding: 3%;
+    margin: 3%;
+    z-index: 2;
+    position: relative;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.Button_Reservation{
+    border-radius: 8%;
+    background-color: var(--primary-color);
+    padding: 3%;
+    margin: 3%;
+    z-index: 2;
+    position: relative;
+    box-shadow: var(--secondary-color)
+}
+
+/*Media Queries*/
+@media  (max-width: 1023px){
+    .Img_Opacity{
+        display: flex;
+    flex-direction: column;
+    }
+
+}
+    
+
+
+
+
