@@ -34,7 +34,7 @@
 /* Marseille*/
 
 .Marseille::after{
-    background-image: url('/img/marseille.png');
+    background-image: url('./img/marseille.png');
 }
 /* Paris*/
 .Paris::after{

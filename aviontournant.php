@@ -4,16 +4,14 @@
 <head>
     <title>avion</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styleavion.css">
+    <link rel="stylesheet" href="./styleavion.css">
 </head>
 
 <body>
 
-<?php 
-        include('');
-    ?>
+<?php include('./NavBar.php'); ?>
 
-    <img src="/img/avion.png" id="img" onclick="shovDiv()">
+    <img src="./img/avion.png" id="img" onclick="shovDiv()">
 
     <div id="rotate">
     </div>
@@ -21,7 +19,7 @@
 
     <div id="niketamere">
         <h2 id="zebi"></h2><br>
-        <img src="/img/avion pae de presentation.png" class="fly">
+        <img src="./img/avion pae de presentation.png" class="fly">
     </div>
     <button style="display: none;" id="replay" value="Refresh Page" onClick="window.location.reload()">replay</button>
     <script>
@@ -59,9 +57,7 @@
 
 <footer>
 
-<?php 
-        include('');
-    ?>
+<?php include('./Footer.php'); ?>
 
     
 </footer>
