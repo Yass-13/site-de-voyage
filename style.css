@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    margin: 35vh 0;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+#pills-tabContent{
+    width: 200px;
+    
+}
+
+#pills-dubai-tab{
+    margin-top: 30px;
+    width: 250px;
+}
+
+.h{
+    display: flex;
+    justify-content: center;
+}
+
+.offre{
+    display: flex;
+    justify-content: space-between;
+}
