@@ -15,19 +15,24 @@ body {
 
 }
 
+.fly{
+    width: 300px;
+}
+
 #replay {
     margin-left: 800px;
 }
 
 #zebi {
     display: flex;
-    padding: 50px;
+    padding-top: 50px;
+
 }
 
 #niketamere {
     width: 300px;
     height: 150px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
     display: none;
     left: 200px;
     top: -500px;
@@ -37,31 +42,31 @@ body {
 
 @keyframes myfirst {
     0% {
-        background-color: red;
+        background-color: rgba(255, 0, 0, 0);
         left: 250px;
         top: -500px;
     }
 
     25% {
-        background-color: yellow;
+        background-color: rgba(255, 255, 0, 0);
         left: 250px;
         top: 0px;
     }
 
     50% {
-        background-color: blue;
+        background-color: rgba(0, 0, 255, 0);
         left: 1100px;
         top: 0px;
     }
 
     75% {
-        background-color: green;
+        background-color: rgba(0, 128, 0, 0);
         left: 1100px;
         top: -500px;
     }
 
     100% {
-        background-color: red;
+        background-color: rgba(255, 0, 0, 0);
         left: -1100px;
         top: -500px;
     }
