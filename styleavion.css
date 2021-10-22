@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+}
+
+#img {
+    transition: all ease-in-out .5s;
+    margin: 50px 0;
+}
+
+#rotate  {
+
+    font-size: 50px;
+    color: black;
+    animation: example 2s linear 0s infinite normal;
+
+}
+
+.fly{
+    width: 300px;
+}
+
+#replay {
+    margin-left: 800px;
+}
+
+#zebi {
+    display: flex;
+    padding-top: 50px;
+
+}
+
+#niketamere {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0);
+    display: none;
+    left: 200px;
+    top: -500px;
+    position: relative;
+    animation: myfirst 5s linear 0s infinite alternate;
+}
+
+@keyframes myfirst {
+    0% {
+        background-color: rgba(255, 0, 0, 0);
+        left: 250px;
+        top: -500px;
+    }
+
+    25% {
+        background-color: rgba(255, 255, 0, 0);
+        left: 250px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: rgba(0, 0, 255, 0);
+        left: 1100px;
+        top: 0px;
+    }
+
+    75% {
+        background-color: rgba(0, 128, 0, 0);
+        left: 1100px;
+        top: -500px;
+    }
+
+    100% {
+        background-color: rgba(255, 0, 0, 0);
+        left: -1100px;
+        top: -500px;
+    }
+}
+@keyframes example {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: green;
+    }
+
+    50% {
+        color: rgb(20, 20, 231);
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: red;
+    }
+}
