@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* COLORS VARIABLES */
+:root{
+    --main-color: #1e847f;
+    --secondary-color: #ecc19c;
+    --tertiary-color: #000000;
+}
+/* GENERAL */
+.DflexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* NavBar style */
+.containerNavBar{
+    padding: 0.5em;
+    position: relative;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
+    border-bottom: 2px solid var(--main-color);
+}
+/* NavBar Background */
+.containerNavBar::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('/img/sky-690293_1920.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto;
+}
+/* logo and navigation link */
+.logo, .ButtonsNav{
+    z-index: 2;
+}
+.logo{
+    gap: 1.5em;
+}
+.logo img{
+    max-width: 5em;
+}
+.logoTitle{
+    font-size: 3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: var(--main-color);
+    text-shadow: 0 0 20px var(--tertiary-color), 0 0 2px var(--tertiary-color);
+}
+/* BUTTONS CONTAINER */
+.ButtonsNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5em;
+}
+/* BUTTONS */
+.ButtonsNav a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+.linkBtn{
+    border: 2px solid var(--main-color);
+    border-radius: 25px;
+    padding: 1em;
+    min-width: 3em;
+}
+.linkBtn:hover{
+    background: var(--secondary-color);
+}
+/* MENU BURGER ICON */
+.iconBurger{
+    display: none;
+    font-size: 2.5em;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 835px){
+    .ButtonsNav a.linkBtn{
+        display: none;
+    }
+    .iconBurger{
+        display: block;
+    }
+    .logo{
+        width: 100%;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 835px){
+    .containerNavBar{
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .ButtonsNav.responsive{
+        position: relative;
+    }
+    .ButtonsNav.responsive a.linkBtn{
+        display: block;
+    }
+}

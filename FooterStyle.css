@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* GLOBAL STYLES */
+:root{
+    --main-color: #1e847f;
+    --secondary-color: #ecc19c;
+    --tertiary-color: #000000;
+}
+.DflexC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+/* FOOTER CONTAINER */
+.containerFooter{
+    flex-direction: column;
+    gap: 1.5em;
+    border: 2px solid var(--main-color);
+    background-color: var(--secondary-color);
+}
+/* SOCIAL ICONS CONTAINER */
+.socialFooter{
+    padding: 1em;
+    justify-content: space-around;
+    width: 35%;
+    gap: 2em;
+    border-bottom: 1px solid var(--tertiary-color);
+}
+/* SOCIAL ICONS */
+.socialFooter i{
+    font-size: 2em;
+    padding: 0.1em;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 15px;
+    background-color: var(--main-color);
+}
+.socialFooter i:hover{
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    background-color: var(--main-color);
+}
+/* LINKS CONTAINER */
+.linkFooter{
+    justify-content: space-around;
+    gap: 1em;
+    width: 75%;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+/* LINKS */
+.linkFooter a{
+    border-bottom: 1px solid var(--secondary-color);
+}
+.linkFooter a:hover{
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+/* COPYRIGHT CONTAINER */
+.Copyright p{
+    color: var(--tertiary-color);
+}
