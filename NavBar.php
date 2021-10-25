@@ -24,7 +24,7 @@
             <a href="./aviontournant.php" class="linkBtn">Roue</a>
             <a href="#" class="linkBtn">Contact</a>
             <div class="panier">
-                <a href="#" class="linkBtn">Panier</a>
+                <a href="#" class="linkBtn">Panier<i class="panierIcon"></i></a>
             </div>
 
         </div>

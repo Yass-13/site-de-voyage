@@ -13,9 +13,7 @@
 
 <body>
 
-  <?php
-  include('./NavBar.php');
-  ?>
+  <?php include('./NavBar.php'); ?>
 
   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
@@ -114,9 +112,9 @@
       </div>
     </div>
   </div>
-  <?php
-  include('./Footer.php');
-  ?>
+
+  <?php include('./Footer.php'); ?>
+  
 </body>
 
 
