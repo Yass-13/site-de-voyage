@@ -6,24 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
-    <title>Paris</title>
+    <link rel="stylesheet" href="./NavBarStyle.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <div class="Img_Opacity Paris">
+
+<?php 
+        include('NavBar.html');
+    ?>
+
+
+    <div class="Img_Opacity Miami">
 
         <div class="First_Block">
             <div class="Ville">
-                <h1>Paris</h1>
+                <h1>Miami</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/paris.png" alt="Paris">
+                <img src="/img/miami.png" alt="Miami">
 
             </div>
             <div class="Description">
-                <p>Paris est monumentale, par sa taille bien-sûr mais aussi par son riche patrimoine architectural !
-                    L'un des symboles de note Capitale, son monument le plus connu est la Tour-Eiffel, cette "Dame de
-                    Fer" à l'allure unique offre une vue sans pareil à ses visiteurs.</p>
+                <p>Il n'existe aucune autre ville comme Miami – c'est un fait. Surnommée la « Ville Magique », Miami est
+                    un mélange unique et passionnant de culture urbaine branchée, d'atmosphère balnéaire décontractée et
+                    de traditions latines et américaines.</p>
             </div>
         </div>
         <div class="Second_Block">
@@ -53,5 +61,15 @@
 
     </div>
 </body>
+
+<footer>
+
+<?php 
+        include('Footer.html');
+    ?>
+
+    
+</footer>
+
 
 </html>

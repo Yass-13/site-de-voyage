@@ -6,25 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
-    <title>New York</title>
+    <link rel="stylesheet" href="./NavBarStyle.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <div class="Img_Opacity New_York">
+
+    <?php 
+        include('NavBar.html');
+    ?>
+
+
+    <div class="Img_Opacity Dubai">
 
         <div class="First_Block">
             <div class="Ville">
-                <h1>New York</h1>
+                <h1>Dubai</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/new_york.png" alt="New York">
+                <img src="/img/Dubai.png" alt="Dubai">
 
             </div>
             <div class="Description">
-                <p>Chacun rêve d'arpenter ses avenues souvent popularisées par une culture américaine exportée avec
-                    succès. Les fameux gratte-ciel américains ne sont pas les seuls à faire la renommée de la ville.
-                    Qu'il s'agisse de musique, d'art, de mode, de gastronomie, ou bien de rencontres, New York reste une
-                    ville chargée d'histoire que chacun pourra découvrir au gré de ses envies.</p>
+                <p>Dubaï est une destination à nulle autre pareille, la ville de tous les superlatifs, de toutes les
+                    surprises. Excellents restaurants, spas raffinés, shopping international, hôtels de luxe et nuits de
+                    rêve vous y attendent.</p>
             </div>
         </div>
         <div class="Second_Block">
@@ -55,5 +62,14 @@
     </div>
 </body>
 
+
+<footer>
+
+    <?php 
+        include('Footer.html');
+    ?>
+
+
+</footer>
 
 </html>

@@ -1,11 +1,12 @@
 body{
     text-align: center;
-    margin: 35vh 0;
+    
 }
 
 ul{
     display: flex;
     justify-content: center;
+    margin-top:200px;
 }
 
 #pills-tabContent{
@@ -21,9 +22,21 @@ ul{
 .h{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
+    
+      
 }
-
 .offre{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+}
+
+
+p{
+    margin-right: 20px; ;
 }

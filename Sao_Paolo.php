@@ -6,26 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
-    <title>Rio</title>
+    <link rel="stylesheet" href="./NavBarStyle.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
+    <title>Sao Paolo</title>
 </head>
 
 <body>
-    <div class="Img_Opacity Rio">
+<?php 
+        include('NavBar.html');
+    ?>
+
+
+    <div class="Img_Opacity Sao_Paolo">
 
         <div class="First_Block">
             <div class="Ville">
-                <h1>Rio</h1>
+                <h1>Sao Paolo</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/rio.png" alt="Rio">
+                <img src="/img/sao_paolo.png" alt="Sao Paolo">
 
             </div>
             <div class="Description">
-                <p>Pour saisir la situation exceptionnelle et le génie de Rio de Janeiro, il suffit, en effet, comme le
-                    dit la chanson, de monter là-haut. D’où que l’on soit, d’ailleurs, il ne se passe pas une heure sans
-                    qu’on n’aperçoive le Corcovado ou le Pain de Sucre.Aucune ville au monde n’aligne une telle
-                    succession de baies, de plages superbes, un tel bouleversement de reliefs, un tel puzzle
-                    géographique ni un nombre aussi impressionnant de points d’observation.</p>
+                <p>Laissez-les vous montrer leurs lieux favoris, et vous finirez par comprendre. Les cinémas d’art et
+                    d’essai et les théâtres expérimentaux abondent. Les amateurs de bonne chère apprécieront le charme
+                    des bistrots et des restaurants gastronomiques qui classent Sao Paulo parmi les hauts lieux de la
+                    cuisine mondiale. Les fêtards embarqueront pour une virée interminable dans les bars underground et
+                    les discothèques. Quelles que soient vos envies, Sampa (surnom de la ville) devrait pouvoir les
+                    satisfaire.</p>
             </div>
         </div>
         <div class="Second_Block">
@@ -56,5 +64,14 @@
     </div>
 </body>
 
+
+<footer>
+
+<?php 
+        include('Footer.html');
+    ?>
+
+    
+</footer>
 
 </html>

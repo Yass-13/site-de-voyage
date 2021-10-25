@@ -6,27 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
-    <title>Sao Paolo</title>
+    <link rel="stylesheet" href="./NavBarStyle.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
 </head>
 
 <body>
-    <div class="Img_Opacity Sao_Paolo">
+
+
+    <?php include ('NavBar.html'); ?>
+
+
+    <div class="Img_Opacity Marseille">
 
         <div class="First_Block">
             <div class="Ville">
-                <h1>Sao Paolo</h1>
+                <h1>Marseille</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/sao_paolo.png" alt="Sao Paolo">
+                <img src="/img/marseille.png" alt="Marseille">
 
             </div>
             <div class="Description">
-                <p>Laissez-les vous montrer leurs lieux favoris, et vous finirez par comprendre. Les cinémas d’art et
-                    d’essai et les théâtres expérimentaux abondent. Les amateurs de bonne chère apprécieront le charme
-                    des bistrots et des restaurants gastronomiques qui classent Sao Paulo parmi les hauts lieux de la
-                    cuisine mondiale. Les fêtards embarqueront pour une virée interminable dans les bars underground et
-                    les discothèques. Quelles que soient vos envies, Sampa (surnom de la ville) devrait pouvoir les
-                    satisfaire.</p>
+                <p>Marseille, capitale généreuse du sud de l'Europe, vous plonge immédiatement dans un bain de Provence,
+                    où l'accent est chantant et le folklore populaire. ... La cité phocéenne se visite pour son Vieux
+                    Port, ses quartiers renouvelés du Panier et des Docks, sa bouillabaisse et son Pastis.</p>
             </div>
         </div>
         <div class="Second_Block">
@@ -55,6 +58,15 @@
         </div>
 
     </div>
+    <?php ?>
 </body>
+<footer>
+
+    <?php 
+        include('Footer.html');
+    ?>
+
+
+</footer>
 
 </html>

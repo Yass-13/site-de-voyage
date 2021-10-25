@@ -6,24 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="./NavBarStyle.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
+    <title>Rio</title>
 </head>
 
 <body>
-    <div class="Img_Opacity Miami">
+
+<?php 
+        include('NavBar.html');
+    ?>
+
+
+    <div class="Img_Opacity Rio">
 
         <div class="First_Block">
             <div class="Ville">
-                <h1>Miami</h1>
+                <h1>Rio</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/miami.png" alt="Miami">
+                <img src="/img/rio.png" alt="Rio">
 
             </div>
             <div class="Description">
-                <p>Il n'existe aucune autre ville comme Miami – c'est un fait. Surnommée la « Ville Magique », Miami est
-                    un mélange unique et passionnant de culture urbaine branchée, d'atmosphère balnéaire décontractée et
-                    de traditions latines et américaines.</p>
+                <p>Pour saisir la situation exceptionnelle et le génie de Rio de Janeiro, il suffit, en effet, comme le
+                    dit la chanson, de monter là-haut. D’où que l’on soit, d’ailleurs, il ne se passe pas une heure sans
+                    qu’on n’aperçoive le Corcovado ou le Pain de Sucre.Aucune ville au monde n’aligne une telle
+                    succession de baies, de plages superbes, un tel bouleversement de reliefs, un tel puzzle
+                    géographique ni un nombre aussi impressionnant de points d’observation.</p>
             </div>
         </div>
         <div class="Second_Block">
@@ -54,5 +64,13 @@
     </div>
 </body>
 
+<footer>
+
+<?php 
+        include('Footer.html');
+    ?>
+
+    
+</footer>
 
 </html>

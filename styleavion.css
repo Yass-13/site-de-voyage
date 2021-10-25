@@ -38,6 +38,7 @@ body {
     top: -500px;
     position: relative;
     animation: myfirst 5s linear 0s infinite alternate;
+    transform: rotateZ(90deg);
 }
 
 @keyframes myfirst {
@@ -45,30 +46,37 @@ body {
         background-color: rgba(255, 0, 0, 0);
         left: 250px;
         top: -500px;
+        transform: rotateZ(90deg);
+        
     }
 
     25% {
         background-color: rgba(255, 255, 0, 0);
         left: 250px;
         top: 0px;
+        transform: rotateZ(180deg);
+       
     }
 
     50% {
         background-color: rgba(0, 0, 255, 0);
         left: 1100px;
         top: 0px;
+        transform: rotateZ(40deg);
     }
 
     75% {
         background-color: rgba(0, 128, 0, 0);
         left: 1100px;
         top: -500px;
+        transform: rotateZ(320deg);
     }
 
     100% {
         background-color: rgba(255, 0, 0, 0);
         left: -1100px;
         top: -500px;
+
     }
 }
 @keyframes example {

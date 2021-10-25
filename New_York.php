@@ -6,31 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
+    <link rel="stylesheet" href="./NavBarStyle.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
+    <title>New York</title>
 </head>
 
 <body>
-    <?php include ('NavBar.html'); ?>
-    <div class="Img_Opacity Marseille">
+
+<?php 
+        include('NavBar.html');
+    ?>
+
+
+    <div class="Img_Opacity New_York">
 
         <div class="First_Block">
             <div class="Ville">
-                <h1>Marseille</h1>
+                <h1>New York</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/marseille.png" alt="Marseille">
+                <img src="/img/new_york.png" alt="New York">
 
             </div>
             <div class="Description">
-                <p>Marseille, capitale généreuse du sud de l'Europe, vous plonge immédiatement dans un bain de Provence,
-                    où l'accent est chantant et le folklore populaire. ... La cité phocéenne se visite pour son Vieux
-                    Port, ses quartiers renouvelés du Panier et des Docks, sa bouillabaisse et son Pastis.</p>
+                <p>Chacun rêve d'arpenter ses avenues souvent popularisées par une culture américaine exportée avec
+                    succès. Les fameux gratte-ciel américains ne sont pas les seuls à faire la renommée de la ville.
+                    Qu'il s'agisse de musique, d'art, de mode, de gastronomie, ou bien de rencontres, New York reste une
+                    ville chargée d'histoire que chacun pourra découvrir au gré de ses envies.</p>
             </div>
         </div>
         <div class="Second_Block">
             <div class="Voyage_Conditions">
                 <h3>A partir de 1200€</h3><br>
                 <h4>NOTRE PRIX COMPREND</h4> <br><br>
-                   <p> -Départ de votre région.<br>
+                <p> -Départ de votre région.<br>
                     -Hébergement : nuits à l'hôtel en chambre double standard.<br>
                     -Repas : dîner au restaurant, petits déjeuners à l’hôtel.<br>
                     -1 Coupon repas d’une valeur de 15 € par participant.<br>
@@ -38,12 +47,12 @@
                     -La taxe de séjour.<br>
                     -Caution : APS garantie totale des fonds déposés.<br>
                     -Assurances : Annulation / Assistance / Rapatriement.</p><br><br>
-                    
-                    <h4>NOTRE PRIX NE COMPREND PAS</h4><br><br>
-                   <p> -Les dépenses de nature personnelle.<br>
+
+                <h4>NOTRE PRIX NE COMPREND PAS</h4><br><br>
+                <p> -Les dépenses de nature personnelle.<br>
                     -Les repas et boissons non mentionnés dans le programme.<br>
                     -Le supplément chambre individuelle : + 150 €.<br><br>
-                    
+
                     (*tarif pour les enfants de moins de 12 ans partageant la chambre de 2 adultes payants).</p>
             </div>
             <div class="buttonContainer">
@@ -52,7 +61,15 @@
         </div>
 
     </div>
-    <?php ?>
 </body>
+
+<footer>
+
+<?php 
+        include('Footer.html');
+    ?>
+
+    
+</footer>
 
 </html>

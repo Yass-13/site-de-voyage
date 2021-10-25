@@ -6,24 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="./NavBarStyle.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
+    <title>Paris</title>
 </head>
 
 <body>
-    <div class="Img_Opacity Dubai">
+
+<?php 
+        include('NavBar.html');
+    ?>
+
+
+    <div class="Img_Opacity Paris">
 
         <div class="First_Block">
             <div class="Ville">
-                <h1>Dubai</h1>
+                <h1>Paris</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/Dubai.png" alt="Dubai">
+                <img src="/img/paris.png" alt="Paris">
 
             </div>
             <div class="Description">
-                <p>Dubaï est une destination à nulle autre pareille, la ville de tous les superlatifs, de toutes les
-                    surprises. Excellents restaurants, spas raffinés, shopping international, hôtels de luxe et nuits de
-                    rêve vous y attendent.</p>
+                <p>Paris est monumentale, par sa taille bien-sûr mais aussi par son riche patrimoine architectural !
+                    L'un des symboles de note Capitale, son monument le plus connu est la Tour-Eiffel, cette "Dame de
+                    Fer" à l'allure unique offre une vue sans pareil à ses visiteurs.</p>
             </div>
         </div>
         <div class="Second_Block">
@@ -55,4 +63,12 @@
 </body>
 
 
+<footer>
+
+<?php 
+        include('Footer.html');
+    ?>
+
+    
+</footer>
 </html>
