@@ -3,11 +3,6 @@
     padding: 0;
 }
 /* GLOBAL STYLES */
-:root{
-    --main-color: #1e847f;
-    --secondary-color: #ecc19c;
-    --tertiary-color: #000000;
-}
 .DflexC{
     display: flex;
     align-items: center;
