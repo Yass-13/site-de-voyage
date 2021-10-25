@@ -33,12 +33,13 @@
     height: 100%;
     z-index: 1;
     opacity: 0.6;
-    background-image: url('/img/sky-690293_1920.jpg');
+    background-image: url('./img/sky-690293_1920.jpg');
     background-repeat: no-repeat;
     background-position:center;
     background-size:auto;
 }
 /* logo and navigation link */
+
 .logo, .ButtonsNav{
     z-index: 2;
 }

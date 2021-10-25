@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="cssJ.css" rel="stylesheet">
+    <link href="./cssJ.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
                 <h1>Marseille</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/marseille.png" alt="Marseille">
+                <img src="./img/marseille.png" alt="Marseille">
 
             </div>
             <div class="Description">
