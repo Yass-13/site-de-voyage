@@ -2,12 +2,6 @@
     margin: 0;
     padding: 0;
 }
-/* COLORS VARIABLES */
-:root{
-    --main-color: #1e847f;
-    --secondary-color: #ecc19c;
-    --tertiary-color: #000000;
-}
 /* GENERAL */
 .DflexCenter{
     display: flex;
