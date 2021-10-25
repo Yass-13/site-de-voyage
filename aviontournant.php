@@ -5,6 +5,8 @@
     <title>avion</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./styleavion.css">
+    <link rel="stylesheet" href="./NavBarStyle.css">
+  <link rel="stylesheet" href="./FooterStyle.css">
 </head>
 
 <body>
