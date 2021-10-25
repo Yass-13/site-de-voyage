@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./Acceuilstyle.css">
   <link rel="stylesheet" href="./NavBarStyle.css">
   <link rel="stylesheet" href="./FooterStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   <script src="bootstrap.min.js"></script>
 </head>
@@ -30,6 +31,11 @@
     </li>
   </ul>
 
+  
+<div>
+  <img src="./img/avion gain.png" alt="avion"  class="avion " >
+  
+</div>
 
 
 
@@ -114,6 +120,8 @@
   </div>
 
   <?php include('./Footer.php'); ?>
+
+ 
   
 </body>
 

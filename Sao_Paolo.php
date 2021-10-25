@@ -21,7 +21,7 @@
                 <h1>Sao Paolo</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/sao_paolo.png" alt="Sao Paolo">
+                <img src="./img/sao_paolo.png" alt="Sao Paolo">
 
             </div>
             <div class="Description">

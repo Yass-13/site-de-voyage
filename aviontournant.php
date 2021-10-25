@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styleavion.css">
     <link rel="stylesheet" href="./NavBarStyle.css">
   <link rel="stylesheet" href="./FooterStyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,13 +16,15 @@
 
     <img src="./img/avion.png" id="img" onclick="shovDiv()">
 
-    <div id="rotate">
-    </div>
+   
+     <div id="rotate"></div>
+    
+     
 
 
     <div id="niketamere">
         <h2 id="zebi"></h2><br>
-        <img src="./img/avion pae de presentation.png" class="fly">
+        <img src="./img/avion gain.png" class="fly">
     </div>
     <button style="display: none;" id="replay" value="Refresh Page" onClick="window.location.reload()">replay</button>
     <script>
@@ -38,6 +41,11 @@
                 "40% DE REDUCTION !",
                 "10% DE REDUCTION !",
                 "CAFÉ GRATUIT !",
+                "UNE VALISE !",
+                "UNE NUIT OFFERTE !",
+                "SURCLASSEMENT ACCES VIP !",
+                "TOUR DE BATEAU OFFERT !",
+                "PERDU !",
             ];
 
             var randomItem = myArray[Math.floor(Math.random() * myArray.length)];

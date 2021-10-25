@@ -21,7 +21,7 @@
                 <h1>Rio</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/rio.png" alt="Rio">
+                <img src="./img/rio.png" alt="Rio">
 
             </div>
             <div class="Description">

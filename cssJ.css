@@ -38,28 +38,28 @@
 }
 /* Paris*/
 .Paris::after{
-    background-image: url('/img/paris.png');
+    background-image: url('./img/paris.png');
 }
 /* Rio */
 .Rio::after{
-    background-image: url('/img/rio.png');
+    background-image: url('./img/rio.png');
 }
 /* Sao Paolo*/
 .Sao_Paolo::after{
-    background-image: url('/img/sao_paolo.png');
+    background-image: url('./img/sao_paolo.png');
 }
 /* Dubai */
 .Dubai::after{
-    background-image: url('/img/Dubai.png');
+    background-image: url('./img/Dubai.png');
 }
 /*New York*/
 .New_York::after{
-    background-image: url('/img/new_york.png');
+    background-image: url('./img/new_york.png');
 }
 
 /* Miami */
 .Miami::after{
-    background-image: url('/img/miami.png');
+    background-image: url('./img/miami.png');
 }
 /* Ville, Image et Description*/
 

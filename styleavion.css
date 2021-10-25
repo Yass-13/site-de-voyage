@@ -8,20 +8,16 @@ body {
 }
 
 #rotate  {
-
     font-size: 50px;
     color: black;
-    animation: example 2s linear 0s infinite normal;
-
 }
+
 
 .fly{
     width: 300px;
 }
 
-#replay {
-    margin-left: 800px;
-}
+
 
 #zebi {
     display: flex;
@@ -37,58 +33,98 @@ body {
     left: 200px;
     top: -500px;
     position: relative;
-    animation: myfirst 5s linear 0s infinite alternate;
+    animation: myfirst 5s linear 0s infinite normal;
 }
 
 @keyframes myfirst {
     0% {
         background-color: rgba(255, 0, 0, 0);
-        left: 250px;
-        top: -500px;
+        left: -250px;
+        top: -900px;
     }
 
-    25% {
-        background-color: rgba(255, 255, 0, 0);
-        left: 250px;
-        top: 0px;
-    }
 
     50% {
-        background-color: rgba(0, 0, 255, 0);
-        left: 1100px;
-        top: 0px;
+        background-color: rgba(255, 0, 0, 0);
+        left: 600px;
+        top: -200px;
+        
+        
     }
 
-    75% {
-        background-color: rgba(0, 128, 0, 0);
-        left: 1100px;
-        top: -500px;
-    }
 
     100% {
         background-color: rgba(255, 0, 0, 0);
-        left: -1100px;
-        top: -500px;
+        left: 1550px;
+        top: -800px;
+        transform: rotateZ(-20deg);
     }
+
+    
+
 }
-@keyframes example {
-    0% {
-        color: red;
-    }
 
-    25% {
-        color: green;
-    }
-
-    50% {
-        color: rgb(20, 20, 231);
-    }
-
-    75% {
-        color: yellow;
-    }
-
-    100% {
-        color: red;
-    }
-}
+.replay {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+  button {
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      font-size: 20px;
+      font-family: 'Staatliches', cursive;
+      letter-spacing: 5px;
+      background: #5121ff;
+      border: 2px solid black;
+      box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+      transition: 500ms;
+      margin-left:45%;
+      margin-bottom: 80px;
+      margin-top: -90px;
+  }
+  
+  button:after {
+      content: '';
+      position: absolute;
+      transform: translateX(-55px) translateY(-40px);
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: transparent;
+      box-shadow: 0px 0px 50px transparent;
+      transition: 500ms;
+  }
+  
+  button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+  }
+  
+  button:hover:after {
+      background: white;
+      box-shadow: 0px 0px 20px #ff2121, 0px 0px 30px #ff2121, inset 0px 0px 10px #ff2121;
+      animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin{
+      25%{transform: translateX(-25px) translateY(-35px);
+              width: 15px;
+              height: 15px;}
+      50% {transform: translateX(-55px) translateY(-30px);
+              width: 5px;
+              height: 5px;}
+      75% {transform: translateX(-85px) translateY(-35px);
+              width: 15px;
+              height: 15px;}
+  }
+  
+  button:focus {
+      outline: none;
+  }

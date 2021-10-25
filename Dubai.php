@@ -22,7 +22,7 @@
                 <h1>Dubai</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/Dubai.png" alt="Dubai">
+                <img src="./img/Dubai.png" alt="Dubai">
 
             </div>
             <div class="Description">

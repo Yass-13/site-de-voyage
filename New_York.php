@@ -21,7 +21,7 @@
                 <h1>New York</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/new_york.png" alt="New York">
+                <img src="./img/new_york.png" alt="New York">
 
             </div>
             <div class="Description">
