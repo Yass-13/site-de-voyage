@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include ('NavBar.html'); ?>
+    <?php include ('NavBar.php'); ?>
     <div class="Img_Opacity Marseille">
 
         <div class="First_Block">

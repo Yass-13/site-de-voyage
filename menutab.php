@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Menu de choix</title>
   <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./Acceuilstyle.css">
   <link rel="stylesheet" href="./NavBarStyle.css">
   <link rel="stylesheet" href="./FooterStyle.css">
 
@@ -38,76 +38,76 @@
       <div class="tab-pane fade show active" id="pills-france" role="tabpanel" aria-labelledby="pills-france-tab">
         <p>Choissisez votre destination de rêve:</p>
         <div class="offre">
-          <p>New york </p><button>VOIR DETAILS</button>
+          <a href="./New_York.php"><p>New york </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Miami </p><button>VOIR DETAILS</button>
+          <a href="./Miami.php"><p>Miami </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Sao Paolo </p><button>VOIR DETAILS</button>
+          <a href="./Sao_Paolo.php"><p>Sao Paolo </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Rio </p><button>VOIR DETAILS</button>
+          <a href="./Rio.php"><p>Rio </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Dubai </p><button>VOIR DETAILS</button>
+          <a href="./Dubai.php"><p>Dubai </p><button>VOIR DETAILS</button></a>
         </div>
       </div>
       <div class="tab-pane fade" id="pills-usa" role="tabpanel" aria-labelledby="pills-usa-tab">
         <p>Choissisez votre destination de rêve:</p>
         <div class="offre">
-          <p>Marseille </p><button>VOIR DETAILS</button>
+          <a href="./Marseille.php"><p>Marseille </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Paris </p><button>VOIR DETAILS</button>
+          <a href="./Paris.php"><p>Paris </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Sao Paolo </p><button>VOIR DETAILS</button>
+          <a href="./Sao_Paolo.php"><p>Sao Paolo </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Rio </p><button>VOIR DETAILS</button>
+          <a href="./Rio.php"><p>Rio </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Dubai </p><button>VOIR DETAILS</button>
+          <a href="./Dubai.php"><p>Dubai </p><button>VOIR DETAILS</button></a>
         </div>
       </div>
       <div class="tab-pane fade" id="pills-bresil" role="tabpanel" aria-labelledby="pills-bresil-tab">
         <p>Choissisez votre destination de rêve:</p>
         <div class="offre">
-          <p>New york </p><button>VOIR DETAILS</button>
+          <a href="./New_York.php"><p>New york </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Miami </p><button>VOIR DETAILS</button>
+          <a href="./Miami.php"><p>Miami </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Marseille </p><button>VOIR DETAILS</button>
+          <a href="./Marseille.php"><p>Marseille </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Paris </p><button>VOIR DETAILS</button>
+          <a href="./Paris.php"><p>Paris </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Dubai </p><button>VOIR DETAILS</button>
+          <a href="./Dubai.php"><p>Dubai </p><button>VOIR DETAILS</button></a>
         </div>
       </div>
       <div class="tab-pane fade" id="pills-dubai" role="tabpanel" aria-labelledby="pills-dubai-tab">
         <p>Choissisez votre destination de rêve:</p>
         <div class="offre">
-          <p>New york </p><button>VOIR DETAILS</button>
+          <a href="./New_York.php"><p>New york </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Miami </p><button>VOIR DETAILS</button>
+          <a href="./Miami.php"><p>Miami </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Sao Paolo </p><button>VOIR DETAILS</button>
+         <a href="./Sao_Paolo.php"> <p>Sao Paolo </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Rio </p><button>VOIR DETAILS</button>
+         <a href="./Rio.php"> <p>Rio </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Marseille </p><button>VOIR DETAILS</button>
+          <a href="./Marseille.php"><p>Marseille </p><button>VOIR DETAILS</button></a>
         </div>
         <div class="offre">
-          <p>Paris </p><button>VOIR DETAILS</button>
+          <a href="./Paris.php"><p>Paris </p><button>VOIR DETAILS</button></a>
         </div>
       </div>
     </div>

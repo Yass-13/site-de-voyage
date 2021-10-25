@@ -5,6 +5,7 @@ body{
 ul{
     display: flex;
     justify-content: center;
+    margin-top: 110px;
 }
 
 #pills-tabContent{
@@ -20,9 +21,19 @@ ul{
 .h{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .offre{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+}
+
+button{
+    margin-left: 25px;
 }
