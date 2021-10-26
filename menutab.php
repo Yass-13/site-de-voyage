@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="./Acceuilstyle.css">
   <link rel="stylesheet" href="./NavBarStyle.css">
   <link rel="stylesheet" href="./FooterStyle.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="./varGlobal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <script src="bootstrap.min.js"></script>
 </head>
@@ -31,11 +32,11 @@
     </li>
   </ul>
 
-  
-<div>
-  <img src="./img/avion gain.png" alt="avion"  class="avion " >
-  
-</div>
+
+  <div>
+    <img src="./img/avion gain.png" alt="avion" class="avion ">
+
+  </div>
 
 
 
@@ -44,76 +45,118 @@
       <div class="tab-pane fade show active" id="pills-france" role="tabpanel" aria-labelledby="pills-france-tab">
         <p>Choissisez votre destination de rêve:</p>
         <div class="offre">
-          <a href="./New_York.php"><p>New york </p><button>VOIR DETAILS</button></a>
+          <a href="./New_York.php">
+            <p>New york </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Miami.php"><p>Miami </p><button>VOIR DETAILS</button></a>
+          <a href="./Miami.php">
+            <p>Miami </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Sao_Paolo.php"><p>Sao Paolo </p><button>VOIR DETAILS</button></a>
+          <a href="./Sao_Paolo.php">
+            <p>Sao Paolo </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Rio.php"><p>Rio </p><button>VOIR DETAILS</button></a>
+          <a href="./Rio.php">
+            <p>Rio </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Dubai.php"><p>Dubai </p><button>VOIR DETAILS</button></a>
+          <a href="./Dubai.php">
+            <p>Dubai </p><button>VOIR DETAILS</button>
+          </a>
         </div>
       </div>
       <div class="tab-pane fade" id="pills-usa" role="tabpanel" aria-labelledby="pills-usa-tab">
         <p>Choissisez votre destination de rêve:</p>
         <div class="offre">
-          <a href="./Marseille.php"><p>Marseille </p><button>VOIR DETAILS</button></a>
+          <a href="./Marseille.php">
+            <p>Marseille </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Paris.php"><p>Paris </p><button>VOIR DETAILS</button></a>
+          <a href="./Paris.php">
+            <p>Paris </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Sao_Paolo.php"><p>Sao Paolo </p><button>VOIR DETAILS</button></a>
+          <a href="./Sao_Paolo.php">
+            <p>Sao Paolo </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Rio.php"><p>Rio </p><button>VOIR DETAILS</button></a>
+          <a href="./Rio.php">
+            <p>Rio </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Dubai.php"><p>Dubai </p><button>VOIR DETAILS</button></a>
+          <a href="./Dubai.php">
+            <p>Dubai </p><button>VOIR DETAILS</button>
+          </a>
         </div>
       </div>
       <div class="tab-pane fade" id="pills-bresil" role="tabpanel" aria-labelledby="pills-bresil-tab">
         <p>Choissisez votre destination de rêve:</p>
         <div class="offre">
-          <a href="./New_York.php"><p>New york </p><button>VOIR DETAILS</button></a>
+          <a href="./New_York.php">
+            <p>New york </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Miami.php"><p>Miami </p><button>VOIR DETAILS</button></a>
+          <a href="./Miami.php">
+            <p>Miami </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Marseille.php"><p>Marseille </p><button>VOIR DETAILS</button></a>
+          <a href="./Marseille.php">
+            <p>Marseille </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Paris.php"><p>Paris </p><button>VOIR DETAILS</button></a>
+          <a href="./Paris.php">
+            <p>Paris </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Dubai.php"><p>Dubai </p><button>VOIR DETAILS</button></a>
+          <a href="./Dubai.php">
+            <p>Dubai </p><button>VOIR DETAILS</button>
+          </a>
         </div>
       </div>
       <div class="tab-pane fade" id="pills-dubai" role="tabpanel" aria-labelledby="pills-dubai-tab">
         <p>Choissisez votre destination de rêve:</p>
         <div class="offre">
-          <a href="./New_York.php"><p>New york </p><button>VOIR DETAILS</button></a>
+          <a href="./New_York.php">
+            <p>New york </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Miami.php"><p>Miami </p><button>VOIR DETAILS</button></a>
+          <a href="./Miami.php">
+            <p>Miami </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-         <a href="./Sao_Paolo.php"> <p>Sao Paolo </p><button>VOIR DETAILS</button></a>
+          <a href="./Sao_Paolo.php">
+            <p>Sao Paolo </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-         <a href="./Rio.php"> <p>Rio </p><button>VOIR DETAILS</button></a>
+          <a href="./Rio.php">
+            <p>Rio </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Marseille.php"><p>Marseille </p><button>VOIR DETAILS</button></a>
+          <a href="./Marseille.php">
+            <p>Marseille </p><button>VOIR DETAILS</button>
+          </a>
         </div>
         <div class="offre">
-          <a href="./Paris.php"><p>Paris </p><button>VOIR DETAILS</button></a>
+          <a href="./Paris.php">
+            <p>Paris </p><button>VOIR DETAILS</button>
+          </a>
         </div>
       </div>
     </div>
@@ -121,8 +164,8 @@
 
   <?php include('./Footer.php'); ?>
 
- 
-  
+
+
 </body>
 
 

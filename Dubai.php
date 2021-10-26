@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
     <link rel="stylesheet" href="./NavBarStyle.css">
-  <link rel="stylesheet" href="./FooterStyle.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
+    <link rel="stylesheet" href="./varGlobal.css">
     <title>Document</title>
 </head>
 
 <body>
 
-<?php include('./NavBar.php'); ?>
+    <?php include('./NavBar.php'); ?>
 
     <div class="Img_Opacity Dubai">
 
@@ -52,7 +53,7 @@
                     (*tarif pour les enfants de moins de 12 ans partageant la chambre de 2 adultes payants).</p>
             </div>
             <div class="buttonContainer">
-                <input type="button" class="Button_Reservation" value="Rerserver">
+                <input onclick="addArticlePanier()" type="button" class="Button_Reservation" value="Rerserver">
             </div>
         </div>
 
@@ -60,9 +61,9 @@
 </body>
 <footer>
 
-<?php include('./Footer.php'); ?>
+    <?php include('./Footer.php'); ?>
 
-    
+
 </footer>
 
 

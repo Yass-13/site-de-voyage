@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./cssJ.css" rel="stylesheet">
     <link rel="stylesheet" href="./NavBarStyle.css">
-  <link rel="stylesheet" href="./FooterStyle.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
+    <link rel="stylesheet" href="./varGlobal.css">
 </head>
 
 <body>
-    <?php include ('NavBar.php'); ?>
+    <?php include('NavBar.php'); ?>
     <div class="Img_Opacity Marseille">
 
         <div class="First_Block">
@@ -32,7 +33,7 @@
             <div class="Voyage_Conditions">
                 <h3>A partir de 1200€</h3><br>
                 <h4>NOTRE PRIX COMPREND</h4> <br><br>
-                   <p> -Départ de votre région.<br>
+                <p> -Départ de votre région.<br>
                     -Hébergement : nuits à l'hôtel en chambre double standard.<br>
                     -Repas : dîner au restaurant, petits déjeuners à l’hôtel.<br>
                     -1 Coupon repas d’une valeur de 15 € par participant.<br>
@@ -40,27 +41,26 @@
                     -La taxe de séjour.<br>
                     -Caution : APS garantie totale des fonds déposés.<br>
                     -Assurances : Annulation / Assistance / Rapatriement.</p><br><br>
-                    
-                    <h4>NOTRE PRIX NE COMPREND PAS</h4><br><br>
-                   <p> -Les dépenses de nature personnelle.<br>
+
+                <h4>NOTRE PRIX NE COMPREND PAS</h4><br><br>
+                <p> -Les dépenses de nature personnelle.<br>
                     -Les repas et boissons non mentionnés dans le programme.<br>
                     -Le supplément chambre individuelle : + 150 €.<br><br>
-                    
+
                     (*tarif pour les enfants de moins de 12 ans partageant la chambre de 2 adultes payants).</p>
             </div>
             <div class="buttonContainer">
-                <input type="button" class="Button_Reservation" value="Rerserver">
+                <input onclick="addArticlePanier()" type="button" class="Button_Reservation" value="Rerserver">
             </div>
         </div>
 
     </div>
-    <?php ?>
 </body>
 <footer>
 
-<?php include('./Footer.php'); ?>
+    <?php include('./Footer.php'); ?>
 
-    
+
 </footer>
 
 

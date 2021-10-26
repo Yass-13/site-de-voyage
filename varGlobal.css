@@ -1,0 +1,9 @@
+/* COLORS */
+/* Hex code: #1fbfb8, #05716c, #1978a5, #031163 */
+:root{
+    --bg-color: #d7fffd;
+    --text-color: #08465f;
+    --icone-color: #61bfe4;
+    --border-color: #15a0d8;
+    --hover-color: whitesmoke;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <title>Footer</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./FooterStyle.css">
-    <link rel="stylesheet" href="./varColors.css">
+    <link rel="stylesheet" href="./varGlobal.css">
 </head>
 <!-- THREE CATEGORY FOOTER -->
+
 <body>
     <div class="containerFooter DflexC">
         <!-- SOCIAL ICONS -->
@@ -33,4 +35,5 @@
         </div>
     </div>
 </body>
+
 </html>
