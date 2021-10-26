@@ -23,7 +23,7 @@
             <a href="javascript:void(0);" class="iconBurger" onclick="burgerFunction()">
                 <i class="bi bi-list"></i></a>
             <a href="./aviontournant.php" class="linkBtn">Roue</a>
-            <a href="#" class="linkBtn">Contact</a>
+            <a href="./contact.php" class="linkBtn">Contact</a>
             <div class="panier">
                 <a href="#" class="linkBtn">Panier<i class="panierIcon"></i></a>
             </div>
