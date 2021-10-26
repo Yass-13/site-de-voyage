@@ -1,0 +1,58 @@
+*{margin: 0; padding: 0;}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4%;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+input{
+    width:366px;
+    padding: 5px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#msg{
+    min-width: 380px;
+    max-width: 380px;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+#resume{
+    width: 400px;
+    height: 200px;
+   background-color: rgba(138, 194, 160, 0.836);
+    z-index: 1;
+    display: none;
+    font-size: 20px;
+    position: absolute;
+    top: 27%;
+    left: 38%;
+    text-align: center;
+    padding-top: 85px;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
