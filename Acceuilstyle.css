@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+   overflow-x: hidden;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 20px;
+   width: 100vw;
+    z-index: 5;
+    position: absolute;
+}
+
+#pills-tabContent{
+    width: 200px;
+    
+}
+
+#pills-dubai-tab{
+    margin-top: 30px;
+    width: 250px;
+}
+
+.h{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    z-index: 2;
+    position: relative;
+}
+
+.offre{
+    display: flex;
+    justify-content:flex-end;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+}
+
+button{
+    margin-left: 25px;
+}
+
+.avion{
+    position: relative;
+    z-index: 1;
+    animation-name: plane;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes plane{
+    0%   {left:-1000px; top:450px; transform: rotateZ(-20deg);}
+    50% {transform: rotateZ(-30deg);}
+    100% {left:1500px; top:-200px;transform: rotateZ(-30deg);}  
+}
+
+

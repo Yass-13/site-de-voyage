@@ -7,6 +7,7 @@
     <title>Footer</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./FooterStyle.css">
+    <link rel="stylesheet" href="varColors.css">
 </head>
 <!-- THREE CATEGORY FOOTER -->
 <body>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barre de Navigation</title>
     <link href="./NavBarStyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="varColors.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 </head>
 
@@ -22,7 +23,7 @@
             <a href="javascript:void(0);" class="iconBurger" onclick="burgerFunction()">
                 <i class="bi bi-list"></i></a>
             <a href="./aviontournant.php" class="linkBtn">Roue</a>
-            <a href="#" class="linkBtn">Contact</a>
+            <a href="./contact.php" class="linkBtn">Contact</a>
             <div class="panier">
                 <a href="#" class="linkBtn">Panier<i class="panierIcon"></i></a>
             </div>

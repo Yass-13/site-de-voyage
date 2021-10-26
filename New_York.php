@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
+    <link rel="stylesheet" href="./NavBarStyle.css">
+  <link rel="stylesheet" href="./FooterStyle.css">
     <title>New York</title>
 </head>
 
 <body>
+<?php include('./NavBar.php'); ?>
+
     <div class="Img_Opacity New_York">
 
         <div class="First_Block">
@@ -17,7 +21,7 @@
                 <h1>New York</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/new_york.png" alt="New York">
+                <img src="./img/new_york.png" alt="New York">
 
             </div>
             <div class="Description">
@@ -54,6 +58,14 @@
 
     </div>
 </body>
+
+<footer>
+
+<?php include('./Footer.php'); ?>
+
+    
+</footer>
+
 
 
 </html>

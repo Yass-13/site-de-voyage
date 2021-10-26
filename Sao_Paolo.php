@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="cssJ.css" rel="stylesheet">
+    <link rel="stylesheet" href="./NavBarStyle.css">
+  <link rel="stylesheet" href="./FooterStyle.css">
     <title>Sao Paolo</title>
 </head>
 
 <body>
+<?php include('./NavBar.php'); ?>
+
     <div class="Img_Opacity Sao_Paolo">
 
         <div class="First_Block">
@@ -17,7 +21,7 @@
                 <h1>Sao Paolo</h1>
             </div>
             <div class="Img_Details">
-                <img src="/img/sao_paolo.png" alt="Sao Paolo">
+                <img src="./img/sao_paolo.png" alt="Sao Paolo">
 
             </div>
             <div class="Description">
@@ -56,5 +60,12 @@
 
     </div>
 </body>
+
+<footer>
+
+<?php include('./Footer.php'); ?>
+
+    
+</footer>
 
 </html>

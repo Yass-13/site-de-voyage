@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./cssJ.css" rel="stylesheet">
+    <link rel="stylesheet" href="./NavBarStyle.css">
+  <link rel="stylesheet" href="./FooterStyle.css">
 </head>
 
 <body>
-    <?php include ('NavBar.html'); ?>
+    <?php include ('NavBar.php'); ?>
     <div class="Img_Opacity Marseille">
 
         <div class="First_Block">
@@ -54,5 +56,12 @@
     </div>
     <?php ?>
 </body>
+<footer>
+
+<?php include('./Footer.php'); ?>
+
+    
+</footer>
+
 
 </html>
