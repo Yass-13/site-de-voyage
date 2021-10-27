@@ -1,16 +1,63 @@
 body {
-    text-align: center;
+    text-align: center; 
+    background: url(./img/background.jpg);
+    background-size: cover;
 }
 
 #img {
     transition: all ease-in-out .5s;
-    margin: 50px 0;
+    margin-top: 20px;
+    margin-bottom: 140px;
     cursor: pointer;
 }
 
 #rotate  {
     font-size: 50px;
     color: black;
+    transition: all ease-in 1s;
+    margin-top: -70px;
+    animation: rainbow-bg 2.5s linear;
+	animation-iteration-count: infinite;
+    
+}
+
+@keyframes rainbow-bg{
+    100%,0%{
+        color: rgb(255,0,0);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
 }
 
 
@@ -18,7 +65,12 @@ body {
     width: 300px;
 }
 
+h1{
+    margin-top: 50px;
+    color: var(--title-color);
+    font-family: var(--title-font);
 
+}
 
 #Gain {
     display: flex;
@@ -35,6 +87,41 @@ body {
     top: -500px;
     position: relative;
     animation: myfirst 5s linear 0 infinite normal;
+    transition: all ease-in 1s;
+    animation: rainbow-bg 2.5s linear;
+	animation-iteration-count: infinite;
+}
+
+.dib{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+   
+}
+
+.example_e {
+	border: none;
+	background: #ffffff;
+	color: #000000 !important;
+	font-weight: 200;
+	padding: 35px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+    margin-bottom: 45px;
+    width: 200px;
+}
+
+.example_e:hover {
+	color: #404040 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.3s ease 0s;
+    
 }
 
 @keyframes myfirst {
@@ -66,67 +153,21 @@ body {
 
 }
 
-.replay {
-    -webkit-touch-callout: none;
-      -webkit-user-select: none;
-       -khtml-user-select: none;
-         -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
-          -webkit-tap-highlight-color: transparent;
-  }
+@media screen and (max-width: 500px){
+    #img {
+        width: 200px;
+        margin-bottom: 300px;
+    }
+    #rotate  {
+        margin-top: -200px;
+        margin-bottom: 200px;
+        font-size: 40px;
+    }
+    .dib{
+        margin-top: -250px;
+    }
+
+
+}
   
-  button {
-      width: 150px;
-      height: 50px;
-      cursor: pointer;
-      font-size: 20px;
-      font-family: 'Staatliches', cursive;
-      letter-spacing: 5px;
-      background: #5121ff;
-      border: 2px solid black;
-      box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
-      transition: 500ms;
-      margin-left:45%;
-      margin-bottom: 35px;
-      margin-top: -100px;
-  }
-  
-  button:after {
-      content: '';
-      position: absolute;
-      transform: translateX(-55px) translateY(-40px);
-      width: 25px;
-      height: 25px;
-      border-radius: 50%;
-      background: transparent;
-      box-shadow: 0px 0px 50px transparent;
-      transition: 500ms;
-  }
-  
-  button:hover {
-      transform: translateY(-5px);
-      box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
-  }
-  
-  button:hover:after {
-      background: white;
-      box-shadow: 0px 0px 20px #ff2121, 0px 0px 30px #ff2121, inset 0px 0px 10px #ff2121;
-      animation: spin 1s infinite linear;
-  }
-  
-  @keyframes spin{
-      25%{transform: translateX(-25px) translateY(-35px);
-              width: 15px;
-              height: 15px;}
-      50% {transform: translateX(-55px) translateY(-30px);
-              width: 5px;
-              height: 5px;}
-      75% {transform: translateX(-85px) translateY(-35px);
-              width: 15px;
-              height: 15px;}
-  }
-  
-  button:focus {
-      outline: none;
-  }
+ 
