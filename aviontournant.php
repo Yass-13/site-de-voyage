@@ -17,26 +17,20 @@
 
     <?php include('./NavBar.php'); ?>
 
-    <img src="./img/avion.png" id="img" onclick="shovDiv()">
+    <h1>TENTEZ VOTRE CHANCE</h1>
 
-
-
-
-
-
-
+    <div><img src="./img/avion.png" id="img" onclick="shovDiv()">
+    <div id="rotate" class="animate__animated animate__zoomIn animate__delay-2s"></div></div>
    
-     <div id="rotate" class="animate__animated animate__zoomIn animate__delay-2s"></div>
     
-     
-
-
 
     <div id="Plane">
         <h2 id="Gain"></h2><br>
         <img src="./img/avion gain.png" class="fly">
     </div>
-    <button style="display: none;" id="replay" class="animate__animated animate__zoomIn animate__delay-2s" value="Refresh Page" onClick="window.location.reload()">replay</button>
+    <div class="dib">
+        <button style="display: none;" id="replay"  class="animate__animated animate__zoomIn animate__delay-2s example_e" value="Refresh Page" onClick="window.location.reload()">replay</button>
+    </div>
     <script>
         document.getElementById("img").addEventListener("click", function() {
             myfunction()
@@ -68,8 +62,8 @@
 
         function shovDiv() {
 
-            setInterval(function () { document.getElementById("Plane").style.display = "block"; }, 2000);
-            setInterval(function () { document.getElementById("replay").style.display = "block"; }, 1000);
+            setInterval(function () { document.getElementById("Plane").style.display = "block"; }, 1000);
+            setInterval(function () { document.getElementById("replay").style.display = "block"; }, 1200);
 
 
         }
