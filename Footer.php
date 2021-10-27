@@ -27,7 +27,7 @@
             <a href="https://www.google.com/" target="_blank" class="link">services</a>
             <a href="https://www.google.com/" target="_blank" class="link">about</a>
             <a href="https://www.google.com/" target="_blank" class="link">terms</a>
-            <a href="https://www.google.com/" target="_blank" class="link">private policy</a>
+            <a href="https://www.google.com/" target="_blank" class="link">policy</a>
         </div>
         <!-- COPYRIGHT -->
         <div class="Copyright">

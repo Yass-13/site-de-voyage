@@ -17,14 +17,14 @@
             <a class="logolink" href="./menutab.php">
                 <img src="./img/LogoNavBar.png">
             </a>
-                <h1 class="logoTitle">smooth flight</h1>
+            <h1 class="logoTitle">smooth flight</h1>
         </div>
         <div class="ButtonsNav" id="menuBurger">
             <a href="javascript:void(0);" class="iconBurger" onclick="burgerFunction()">
                 <i class="bi bi-list"></i></a>
             <a href="./aviontournant.php" class="linkBtn">Roue</a>
             <a href="./contact.php" class="linkBtn">Contact</a>
-            <div class="panier" >
+            <div class="panier">
                 <a href="#" class="linkBtn" id="panierArticle">Panier<i class="bi bi-cart4 panierIcon"></i></a>
             </div>
 
@@ -39,6 +39,7 @@
                 x.className = "ButtonsNav";
             }
         }
+
         function addArticlePanier() {
             var x = document.getElementById("panierArticle");
             if (x.className === "linkBtn") {
