@@ -49,6 +49,7 @@
     border: 3px solid whitesmoke;
     color: whitesmoke;
     background-color: var(--text-color);
+    text-shadow: 15px 15px 15px var(--hover-color);
 }
 /* LINKS CONTAINER */
 .linkFooter{
@@ -68,6 +69,7 @@
 .linkFooter a:hover{
     color: var(--hover-color);
     border-bottom: 1px solid var(--hover-color);
+    text-shadow: 0 0 5px var(--text-color);
 }
 /* COPYRIGHT CONTAINER */
 .Copyright{
