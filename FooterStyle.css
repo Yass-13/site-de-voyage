@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-/* GLOBAL STYLES */
+/* DISPLAY FLEX ALL CENTER */
 .DflexC{
     display: flex;
     align-items: center;
@@ -11,9 +7,25 @@
 /* FOOTER CONTAINER */
 .containerFooter{
     flex-direction: column;
+    position: relative;
     gap: 1.5em;
     border: 2px solid var(--border-color);
     background-color: var(--bg-color);
+}
+.containerFooter::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('./img/sky-690293_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:auto;
 }
 /* SOCIAL ICONS CONTAINER */
 .socialFooter{
@@ -21,19 +33,20 @@
     justify-content: space-around;
     width: 35%;
     gap: 2em;
-    border-bottom: 1px solid var(--border-color);
+    z-index: 2;
+    border-bottom: 2px double var(--text-color);
 }
 /* SOCIAL ICONS */
 .socialFooter i{
     font-size: 2em;
     padding: 0.1em;
-    border: 2px solid var(--border-color);
+    border: 3px solid var(--border-color);
     border-radius: 15px;
-    background-color: var(--text-color);
-    color: var(--bg-color);
+    background-color: var(--bg-color);
+    color: var(--icone-color);
 }
 .socialFooter i:hover{
-    border: 2px solid whitesmoke;
+    border: 3px solid whitesmoke;
     color: whitesmoke;
     background-color: var(--text-color);
 }
@@ -41,6 +54,7 @@
 .linkFooter{
     justify-content: space-around;
     gap: 1em;
+    z-index: 2;
     width: 75%;
     font-size: 1.5em;
     text-transform: capitalize;
@@ -48,14 +62,17 @@
 /* LINKS */
 .linkFooter a{
     text-decoration: none;
-    color: var(--main-color);
-    border-bottom: 1px solid var(--bg-color);
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
 }
 .linkFooter a:hover{
-    color: whitesmoke;
-    border-bottom: 1px solid whitesmoke;
+    color: var(--hover-color);
+    border-bottom: 1px solid var(--hover-color);
 }
 /* COPYRIGHT CONTAINER */
+.Copyright{
+    z-index: 2;
+}
 .Copyright p{
-    color: var(--border-color);
+    color: var(--text-color);
 }

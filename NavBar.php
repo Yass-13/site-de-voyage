@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barre de Navigation</title>
-    <link href="./NavBarStyle.css" rel="stylesheet">
-    <link rel="stylesheet" href="varColors.css">
+    <link rel="stylesheet" href="./NavBarStyle.css">
+    <link rel="stylesheet" href="./varGlobal.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 </head>
 
@@ -24,8 +24,8 @@
                 <i class="bi bi-list"></i></a>
             <a href="./aviontournant.php" class="linkBtn">Roue</a>
             <a href="./contact.php" class="linkBtn">Contact</a>
-            <div class="panier">
-                <a href="#" class="linkBtn">Panier<i class="panierIcon"></i></a>
+            <div class="panier" >
+                <a href="#" class="linkBtn" id="panierArticle">Panier<i class="bi bi-cart4 panierIcon"></i></a>
             </div>
 
         </div>
@@ -37,6 +37,14 @@
                 x.className += " responsive";
             } else {
                 x.className = "ButtonsNav";
+            }
+        }
+        function addArticlePanier() {
+            var x = document.getElementById("panierArticle");
+            if (x.className === "linkBtn") {
+                x.className += " addArticle";
+            } else {
+                x.className = "linkBtn";
             }
         }
     </script>

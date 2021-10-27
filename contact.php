@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+
 <head>
     <title>Page de contact</title>
     <link rel="stylesheet" href="./contactstyle.css">
     <link rel="stylesheet" href="./NavBarStyle.css">
     <link rel="stylesheet" href="./FooterStyle.css">
+    <link rel="stylesheet" href="./varGlobal.css">
 </head>
-<body>
 
+<body>
 <?php include('./NavBar.php'); ?>
     
 
@@ -76,6 +78,7 @@
 
 
 <footer>
-<?php include('./Footer.php'); ?>
+    <?php include('./Footer.php'); ?>
 </footer>
+
 </html>

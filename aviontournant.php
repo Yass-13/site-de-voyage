@@ -6,24 +6,30 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./styleAvion.css">
     <link rel="stylesheet" href="./NavBarStyle.css">
-  <link rel="stylesheet" href="./FooterStyle.css">
-  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="./varGlobal.css">
+    <link rel="stylesheet" href="./FooterStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 
 <body>
 
-<?php include('./NavBar.php'); ?>
+    <?php include('./NavBar.php'); ?>
 
     <img src="./img/avion.png" id="img" onclick="shovDiv()">
+
+
+
+
+
+
 
    
      <div id="rotate" class="animate__animated animate__zoomIn animate__delay-2s"></div>
     
      
+
 
 
     <div id="Plane">
@@ -32,7 +38,7 @@
     </div>
     <button style="display: none;" id="replay" class="animate__animated animate__zoomIn animate__delay-2s" value="Refresh Page" onClick="window.location.reload()">replay</button>
     <script>
-        document.getElementById("img").addEventListener("click", function () {
+        document.getElementById("img").addEventListener("click", function() {
             myfunction()
             showDiv()
         })
@@ -61,8 +67,10 @@
         }
 
         function shovDiv() {
+
             setInterval(function () { document.getElementById("Plane").style.display = "block"; }, 2000);
             setInterval(function () { document.getElementById("replay").style.display = "block"; }, 1000);
+
 
         }
     </script>
@@ -71,8 +79,9 @@
 
 <footer>
 
-<?php include('./Footer.php'); ?>
+    <?php include('./Footer.php'); ?>
 
-    
+
 </footer>
+
 </html>
