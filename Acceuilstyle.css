@@ -1,0 +1,145 @@
+body{
+    text-align: center;
+   overflow-x: hidden;
+   background: url(./img/background.jpg);
+   background-size: cover;
+}
+
+h1{
+    font-weight: 600;
+}
+
+
+ h2{
+    margin-top: 100px;
+    color: var( --text-color);
+    font-family: var(--title-font);
+    border-bottom:  whitesmoke 2px solid;
+    border-top: whitesmoke 2px solid;
+    border-radius:12px ;
+    width: 350px;
+    text-align: center;
+    margin-left: 40%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   width: 100vw;
+    z-index: 5;
+    position: absolute;
+}
+
+#pills-tabContent{
+    width: 200px;
+    
+}
+
+#pills-dubai-tab{
+    margin-top: 30px;
+    width: 250px;
+}
+
+
+.h{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    z-index: 2;
+    position: relative;
+    margin-top: -83px;
+}
+
+.offre{
+    display: flex;
+    justify-content:flex-end;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+button{
+    margin-left: 25px;
+}
+
+.example_d {
+    margin: 6px;
+        color: var(--text-color) !important;
+        text-transform: uppercase;
+        background: var(--bg-color);
+        padding: 2px;
+        border: 4px solid var(--border-color) !important;
+        border-radius: 6px;
+        display: inline-block;
+        transition: all 0.3s ease 0s;
+        width: 108px;
+        font-family: var(--title-font);
+}
+
+.example_d:hover {
+	color:  var(--hover-color)!important;
+	border-radius: 50px;
+	border-color: var(--hover-color) !important;
+	transition: all 0.3s ease 0s;
+    background-color: var(--text-color);
+}
+
+.avion{
+    position: relative;
+    z-index: 1;
+    animation-name: plane;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    
+}
+
+.drim{
+    font-family:var(--title-font);
+    color: var(--text-color);
+    font-size: 20px;
+    border-bottom: var(--border-color) 2px solid;
+    border-top: var(--border-color) 2px solid;
+    border-radius:12px ;
+}
+
+a p {
+    color: var(--text-color);
+    margin-right: 4px;
+    width: 140px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+
+
+@keyframes plane{
+    0%   {left:-1000px; top:450px; transform: rotateZ(-20deg);}
+    50% {transform: rotateZ(-30deg);}
+    100% {left:1500px; top:-200px;transform: rotateZ(-30deg);}  
+}
+
+@media screen and (max-width: 880px){
+    .h{
+        margin-top: 200px;
+    }
+   
+}
+@media screen and (max-width: 466px){
+    .h{
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width: 431px){
+    .h{
+        margin-top: 570px;
+    } 
+    h2{
+        margin-left: 10%;
+    }
+}
+
