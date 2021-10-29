@@ -65,6 +65,7 @@
     text-decoration: none;
     color: var(--text-color);
     border-bottom: 1px solid var(--text-color);
+    font-family: var(--title-font);
 }
 .linkFooter a:hover{
     color: var(--hover-color);
@@ -77,4 +78,5 @@
 }
 .Copyright p{
     color: var(--text-color);
+    font-family: var(--title-font);
 }

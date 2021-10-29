@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="./varGlobal.css">
     <link rel="stylesheet" href="./FooterStyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 <body>
@@ -19,8 +21,10 @@
 
     <h1>TENTEZ VOTRE CHANCE</h1>
 
-    <div><img src="./img/avion.png" id="img" onclick="shovDiv()">
-    <div id="rotate" class="animate__animated animate__zoomIn animate__delay-2s"></div></div>
+    <div>
+    <img src="./img/avion.png" id="img" onclick="showDiv()">
+    <section class="animate__animated animate__rubberBand animate__delay-1 s	;"><div id="rotate" ></div></section>
+    </div>
    
     
 
@@ -29,8 +33,10 @@
         <img src="./img/avion gain.png" class="fly">
     </div>
     <div class="dib">
-        <button style="display: none;" id="replay"  class="animate__animated animate__zoomIn animate__delay-2s example_e" value="Refresh Page" onClick="window.location.reload()">replay</button>
+        <button style="display: none;" id="replay"  class="animate__animated animate__bounce button" value="Refresh Page" onClick="window.location.reload()">replay</button>
     </div>
+
+
     <script>
         document.getElementById("img").addEventListener("click", function() {
             myfunction()
@@ -60,10 +66,10 @@
 
         }
 
-        function shovDiv() {
+        function showDiv() {
 
             setInterval(function () { document.getElementById("Plane").style.display = "block"; }, 1000);
-            setInterval(function () { document.getElementById("replay").style.display = "block"; }, 1200);
+            setInterval(function () { document.getElementById("replay").style.display = "block"; }, 1000);
 
 
         }

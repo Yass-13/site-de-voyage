@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="tab-pane fade" id="pills-usa" role="tabpanel" aria-labelledby="pills-usa-tab">
-        <p>Choissisez votre destination de rêve:</p>
+        <p class="drim">Choissisez votre destination de rêve:</p>
         <div class="offre">
           <a href="./Marseille.php">
             <p>Marseille </p><button class="example_d">VOIR DETAILS</button>
@@ -101,7 +101,7 @@
         </div>
       </div>
       <div class="tab-pane fade" id="pills-bresil" role="tabpanel" aria-labelledby="pills-bresil-tab">
-        <p>Choissisez votre destination de rêve:</p>
+        <p class="drim">Choissisez votre destination de rêve:</p>
         <div class="offre">
           <a href="./New_York.php">
             <p>New york </p><button class="example_d">VOIR DETAILS</button>
@@ -129,7 +129,7 @@
         </div>
       </div>
       <div class="tab-pane fade" id="pills-dubai" role="tabpanel" aria-labelledby="pills-dubai-tab">
-        <p>Choissisez votre destination de rêve:</p>
+        <p class="drim">Choissisez votre destination de rêve:</p>
         <div class="offre">
           <a href="./New_York.php">
             <p>New york </p><button class="example_d">VOIR DETAILS</button>

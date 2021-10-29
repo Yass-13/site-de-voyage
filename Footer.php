@@ -23,11 +23,11 @@
         </div>
         <!-- LINKS -->
         <div class="linkFooter DflexC">
-            <a href="./menutab.php" class="link">home</a>
+            <a href="./menutab.php" class="link">Acceuil</a>
             <a href="https://www.google.com/" target="_blank" class="link">services</a>
-            <a href="https://www.google.com/" target="_blank" class="link">about</a>
-            <a href="https://www.google.com/" target="_blank" class="link">terms</a>
-            <a href="https://www.google.com/" target="_blank" class="link">policy</a>
+            <a href="https://www.google.com/" target="_blank" class="link">Propos</a>
+            <a href="https://www.google.com/" target="_blank" class="link">termes</a>
+            <a href="https://www.google.com/" target="_blank" class="link">politique</a>
         </div>
         <!-- COPYRIGHT -->
         <div class="Copyright">

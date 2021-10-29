@@ -57,7 +57,7 @@
             var message = document.getElementById("msg").value;
 
             var resu = document.getElementById("resume");
-            resu.innerHTML = nom  + "<br /> " + prenom + "<br /> "  + mail +"<br /> "  + message + "<br /> "  + "<br /> "  + "Votre message a ete envoyé !!";
+            resu.innerHTML = nom  + "<br /> " + "<br /> " + prenom + "<br /> "  + "<br /> " + mail +"<br /> "  + "<br /> " + message + "<br /> "  + "<br /> "  + "<br /> " + "Votre message a ete envoyé !!";
         }
 
         function shovDiv() {
