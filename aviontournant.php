@@ -19,7 +19,7 @@
 
     <?php include('./NavBar.php'); ?>
 
-    <h1>TENTEZ VOTRE CHANCE</h1>
+    <h1 class="titre">TENTEZ VOTRE CHANCE</h1>
 
     <div>
     <img src="./img/avion.png" id="img" onclick="showDiv()">
@@ -62,7 +62,7 @@
 
             document.getElementById("rotate").innerHTML = randomItem;
             document.getElementById("Gain").innerHTML = randomItem;
-            document.getElementById("img").style.transform = "rotate(1080deg)";
+            document.getElementById("img").style.transform = "rotate(2160deg)";
 
         }
 

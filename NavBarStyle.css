@@ -67,6 +67,8 @@
 .linkBtn{
     border: 2px solid var(--border-color);
     background-color: var(--bg-color);
+    font-family: var(--title-font);
+    text-transform: uppercase;
     border-radius: 25px;
     padding: 1em;
     min-width: 3em;

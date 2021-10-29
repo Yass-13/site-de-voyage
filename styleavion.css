@@ -3,12 +3,12 @@ body {
     text-align: center; 
     background: url(./img/background.jpg);
     background-size: cover;
-    overflow: scroll;
+    overflow-x:hidden ;
 }
 
 /* SPINNING PLANE */
 #img {
-    transition: all ease-in-out .5s;
+    transition: all ease-in-out 1.5s;
     cursor: pointer;
 }
 
@@ -27,7 +27,7 @@ body {
     width: 300px;
 }
 
-h1{
+.titre{
     margin-top: 50px;
     color: var(--title-color);
     font-family: var(--title-font);

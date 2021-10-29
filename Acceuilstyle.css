@@ -5,8 +5,12 @@ body{
    background-size: cover;
 }
 
+h1{
+    font-weight: 600;
+}
 
-h2{
+
+ h2{
     margin-top: 100px;
     color: var( --text-color);
     font-family: var(--title-font);
