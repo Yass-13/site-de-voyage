@@ -18,6 +18,7 @@ body {
     color: black;
     animation: rainbow-bg 2.5s linear;
 	animation-iteration-count: infinite;
+    font-family: var(--title-font);
 }
 
 /* ANIMATED PLANE WITH RESULT */
