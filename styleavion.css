@@ -10,6 +10,8 @@ body {
 #img {
     transition: all ease-in-out 1.5s;
     cursor: pointer;
+    min-height: 62vh;
+
 }
 
 /* RESULT */
