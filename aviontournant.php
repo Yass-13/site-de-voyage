@@ -34,7 +34,7 @@
     <script>
         document.getElementById("img").addEventListener("click", function() {
             myfunction()
-            showDiv()
+            shovDiv()
         })
 
         function myfunction() {
