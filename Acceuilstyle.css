@@ -4,7 +4,7 @@ body{
    background: url(./img/background.jpg);
    background-size: cover;
 }
-
+/* TITLES */
 h1{
     font-weight: 600;
 }
@@ -21,7 +21,7 @@ h1{
     text-align: center;
     margin-left: 40%;
 }
-
+/* FLAGS */
 ul{
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ ul{
     width: 250px;
 }
 
-
+/* MENU CHOICE */
 .h{
     display: flex;
     justify-content: center;
@@ -115,7 +115,7 @@ a p {
     font-weight: 500;
 }
 
-
+/* PLANE */
 
 @keyframes plane{
     0%   {left:-1000px; top:450px; transform: rotateZ(-20deg);}

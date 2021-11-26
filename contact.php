@@ -11,7 +11,7 @@
 <body>
 <?php include('./NavBar.php'); ?>
     
-
+<!-- FORMULAR -->
     <form>
     <div>
         <label for="name">Nom :</label>
@@ -39,7 +39,7 @@
 
 
     <script>
-
+// DISPLAY MESSAGE AND FORMULAR
         let button = document.getElementById("bton")
         button.addEventListener("click", function () {
              

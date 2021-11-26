@@ -20,13 +20,13 @@
     <?php include('./NavBar.php'); ?>
 
     <h1 class="titre">TENTEZ VOTRE CHANCE</h1>
-
+<!-- SPINNING PLANE -->
     <div>
     <img src="./img/avion.png" id="img" onclick="showDiv()">
     <section class="animate__animated animate__rubberBand animate__delay-1 s	;"><div id="rotate" ></div></section>
     </div>
    
-    
+<!-- WINNING PLANE    -->
 
     <div id="Plane">
         <h2 id="Gain"></h2><br>
@@ -38,6 +38,7 @@
 
 
     <script>
+        // GAIN DISPLAY
         document.getElementById("img").addEventListener("click", function() {
             myfunction()
             showDiv()
@@ -57,11 +58,12 @@
                 "TOUR DE BATEAU OFFERT !",
                 "PERDU !",
             ];
-
+        
             var randomItem = myArray[Math.floor(Math.random() * myArray.length)];
 
             document.getElementById("rotate").innerHTML = randomItem;
             document.getElementById("Gain").innerHTML = randomItem;
+        // SPINNING 
             document.getElementById("img").style.transform = "rotate(2160deg)";
 
         }

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
+
 <head>
+  
   <meta charset="UTF-8">
   <title>Menu de choix</title>
   <link rel="stylesheet" href="bootstrap.min.css">
@@ -16,6 +18,8 @@
 <body>
 
   <?php include('./NavBar.php'); ?>
+
+  <!-- DEPARTURE FLAGS -->
 
   <h2>Votre vol au départ de :</h2>
 
@@ -34,13 +38,13 @@
     </li>
   </ul>
 
-
+  <!-- PLANE -->
   <div>
     <img src="./img/avion gain.png" alt="avion" class="avion ">
 
   </div>
 
-
+  <!-- MENU CHOICE -->
 
   <div class="h">
     <div class="tab-content" id="pills-tabContent">
