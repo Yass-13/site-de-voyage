@@ -1,0 +1,217 @@
+/* BODY */
+body {
+    text-align: center; 
+    background: url(./img/background.jpg);
+    background-size: cover;
+    overflow-x:hidden ;
+}
+
+/* SPINNING PLANE */
+#img {
+    transition: all ease-in-out 1.5s;
+    cursor: pointer;
+}
+
+/* RESULT */
+#rotate  {
+    font-size: 50px;
+    color: black;
+    animation: rainbow-bg 2.5s linear;
+	animation-iteration-count: infinite;
+    font-family: var(--title-font);
+}
+
+/* ANIMATED PLANE WITH RESULT */
+
+
+.fly{
+    width: 300px;
+}
+
+.titre{
+    margin-top: 50px;
+    color: var(--title-color);
+    font-family: var(--title-font);
+
+}
+
+#Gain {
+    display: flex;
+    padding-top: 50px;
+
+}
+
+#Plane {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0);
+    display: none;
+    left: 200px;
+    top: -500px;
+    position: relative;
+    animation: myfirst 5s linear infinite;
+}
+
+
+/* BUTTON */
+.dib{
+    display: flex;
+    justify-content: center;
+}
+.button {
+	border: none;
+	background: #ffffff;
+	color: #000000 !important;
+	font-weight: 200;
+	padding: 35px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+    width: 200px;
+    box-shadow: 11px 10px 8px -2px #4d4d4d8f;
+    margin: -100px 0 20px 0;
+}
+.button:hover {
+	color: #404040 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.3s ease 0s;
+    
+}
+
+/* ANIMATION */
+
+@keyframes myfirst {
+    0% {
+        background-color: rgba(255, 0, 0, 0);
+        left: -250px;
+        top: -900px;
+        color: rgb(255,0,0);
+    }
+
+    8%{
+        color: rgb(255,127,0);
+    }
+
+    16%{
+        color: rgb(255,255,0);
+    }
+
+    25%{
+        color: rgb(127,255,0);
+    } 
+
+    33%{
+        color: rgb(0,255,0);
+    }
+
+    41%{
+        color: rgb(0,255,127);
+    }
+
+    50% {
+        background-color: rgba(255, 0, 0, 0);
+        left: 600px;
+        top: -200px;
+        color: rgb(0,255,255);
+    }
+
+    58%{
+        color: rgb(0,127,255);
+    }
+
+    66%{
+        color: rgb(0,0,255);
+    }
+
+    75%{
+        color: rgb(127,0,255);
+    }
+
+    83%{
+        color: rgb(255,0,255);
+    }
+
+    91%{
+        color: rgb(255,0,127);
+    }
+
+    100% {
+        background-color: rgba(255, 0, 0, 0);
+        left: 1550px;
+        top: -800px;
+        transform: rotateZ(-20deg);
+        color: rgb(255,0,0);
+    }
+}
+
+@keyframes rainbow-bg {
+    0% {
+        color: rgb(255,0,0);
+    }
+
+    8%{
+        color: rgb(255,127,0);
+    }
+
+    16%{
+        color: rgb(255,255,0);
+    }
+
+    25%{
+        color: rgb(127,255,0);
+    } 
+
+    33%{
+        color: rgb(0,255,0);
+    }
+
+    41%{
+        color: rgb(0,255,127);
+    }
+
+    50% {
+        color: rgb(0,255,255);
+    }
+
+    58%{
+        color: rgb(0,127,255);
+    }
+
+    66%{
+        color: rgb(0,0,255);
+    }
+
+    75%{
+        color: rgb(127,0,255);
+    }
+
+    83%{
+        color: rgb(255,0,255);
+    }
+
+    91%{
+        color: rgb(255,0,127);
+    }
+
+    100% {
+        color: rgb(255,0,0);
+    }
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 500px){
+#img{
+    width: 200px;
+}
+#rotate{
+    font-size: 30px;
+}
+}
+  
+ 
