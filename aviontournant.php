@@ -16,18 +16,17 @@
 </head>
 
 <body>
-
+<!-----NAVBAR---->
     <?php include('./NavBar.php'); ?>
-
+<!-----TITLE---->
     <h1 class="titre">TENTEZ VOTRE CHANCE</h1>
-
+<!-----SPINNING PLANE---->
     <div>
     <img src="./img/avion.png" id="img" onclick="showDiv()">
     <section class="animate__animated animate__rubberBand animate__delay-1 s	;"><div id="rotate" ></div></section>
     </div>
    
-    
-
+<!-----WINNING PLANE---->
     <div id="Plane">
         <h2 id="Gain"></h2><br>
         <img src="./img/avion gain.png" class="fly">
@@ -38,6 +37,7 @@
 
 
     <script>
+//SPINNING PLANE SCRIPT
         document.getElementById("img").addEventListener("click", function() {
             myfunction()
             showDiv()
@@ -65,7 +65,7 @@
             document.getElementById("img").style.transform = "rotate(2160deg)";
 
         }
-
+//PRICE WIN SCRIPT
         function showDiv() {
 
             setInterval(function () { document.getElementById("Plane").style.display = "block"; }, 1000);

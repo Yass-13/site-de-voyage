@@ -12,25 +12,28 @@
 </head>
 
 <body>
+<!-----NAVBAR---->
     <div class="containerNavBar DflexCenter">
         <div class="logo DflexCenter">
-            <a class="logolink" href="./menutab.php">
+            <a class="logolink" href="./Index.php">
                 <img src="./img/LogoNavBar.png">
             </a>
             <h1 class="logoTitle">smooth flight</h1>
         </div>
+<!-----BURGER MENU---->
         <div class="ButtonsNav" id="menuBurger">
             <a href="javascript:void(0);" class="iconBurger" onclick="burgerFunction()">
                 <i class="bi bi-list"></i></a>
             <a href="./aviontournant.php" class="linkBtn">Tente ta Chance</a>
             <a href="./contact.php" class="linkBtn">Contact</a>
+<!-----BASKET---->
             <div class="panier">
                 <a href="#" class="linkBtn" id="panierArticle">Panier<i class="bi bi-cart4 panierIcon"></i></a>
             </div>
-
         </div>
     </div>
     <script>
+//BURGER MENU
         function burgerFunction() {
             var x = document.getElementById("menuBurger");
             if (x.className === "ButtonsNav") {
@@ -39,7 +42,7 @@
                 x.className = "ButtonsNav";
             }
         }
-
+//BASKET
         function addArticlePanier() {
             var x = document.getElementById("panierArticle");
             if (x.className === "linkBtn") {

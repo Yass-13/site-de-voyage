@@ -9,9 +9,10 @@
 </head>
 
 <body>
+<!-----NAVBAR---->
 <?php include('./NavBar.php'); ?>
     
-
+<!-----FORMULAR---->
     <form>
     <div>
         <label for="name">Nom :</label>
@@ -39,14 +40,11 @@
 
 
     <script>
-
+//MESSAGE DISPLAY SCRIPT
         let button = document.getElementById("bton")
         button.addEventListener("click", function () {
-             
              myfunction()
-             shovDiv()
-             
-          
+             shovDiv()  
         })
 
         function myfunction() {
@@ -63,18 +61,11 @@
         function shovDiv() {
             setInterval(function () { document.getElementById("resume").style.display = "block"; }, 500);
 
-        }
-
-       
+        } 
     </script>
 
 
-
-
 </body>
-
-
-
 
 
 <footer>
